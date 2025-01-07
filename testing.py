@@ -13,8 +13,8 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 
 # Transcription Parameters
 sample_rate = 44000
-chunk_duration = 2 
-overlap_duration = 0.5
+chunk_duration = 2.5 
+overlap_duration = 0.3
 chunk_size = int(sample_rate * chunk_duration) 
 overlap_size = int(sample_rate * overlap_duration) 
 channels = 1
